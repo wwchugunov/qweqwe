@@ -171,19 +171,19 @@
     border-radius: 15px;
     border: 1px solid black;
     margin-block-start: 20px;
+    position: relative;
 }
 
-.services__item-obout {
+.signwir__text.two {
+    color: white;
     font-family: 'Poppins', sans-serif;
-    width: 147px;
-    font-size: 13px;
-    /* font-weight: 500; */
-    top: 0;
-    margin-top: -32px;
-    margin-left: 8px;
-    color: #4F4F4F;
-    line-height: 152%;
+    font-size: 16px;
+    width: 418px;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
 }
+
 
 .services__title {
     font-family: 'Poppins', sans-serif;
@@ -355,8 +355,21 @@ element.style {
     width: 100%;
     display: none;
 }
-
-
+.signwir__text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 418px;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+}
+.signwir_item {
+    color: white;
+    position: relative;
+    margin-left: -18px;
+    margin-top: 15px;
+}
 .signwir__title.two {
     text-align: center;
     margin-left: 0px;
@@ -364,6 +377,27 @@ element.style {
     padding-bottom: 30px;
 }
 
+.services__info {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    width: 101%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+
+.services__subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
 
 .uber__uns-title::before {
     position: absolute;
@@ -470,6 +504,16 @@ element.style {
 }
 
 
+.signwir__text.two {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 418px;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+}
+
 .contact__title {
     font-size: 36px;
     font-weight: bold;
@@ -490,6 +534,40 @@ element.style {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
+}
+.services__item-img {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.signwir__list.two {
+    margin-left: 80px;
+    /* margin-top: -35px; */
+    margin-left: 60px;
+}
+.services__item-img img {
+    width: 45px;
+    margin-bottom: 56px;
+}
+
+.services__item-obout {
+    /* font-family: 'Poppins', sans-serif; */
+    /* width: 98px; */
+    /* font-size: 13px; */
+    /* font-weight: 500; */
+    top: 0;
+    /* margin-top: -32px; */
+    /* margin-left: 8px; */
+    /* color: #4F4F4F; */
+    /* line-height: 134%; */
+    font-size: 13px;
+    font-weight: 400;
+    width: 166px;
+    margin-left: 1px;
+    padding-left: 3px;
+    padding-right: 7px;
+    line-height: 156%;
 }
 
 .services__title {
