@@ -165,7 +165,7 @@
     margin-top: 28px;
 }
 .services__item {
-    width: 183px;
+    width: 164px;
     height: 442px;
     background: #83a15f7f;
     border-radius: 15px;
@@ -173,6 +173,17 @@
     margin-block-start: 20px;
 }
 
+.services__item-obout {
+    font-family: 'Poppins', sans-serif;
+    width: 147px;
+    font-size: 13px;
+    /* font-weight: 500; */
+    top: 0;
+    margin-top: -32px;
+    margin-left: 8px;
+    color: #4F4F4F;
+    line-height: 152%;
+}
 
 .services__title {
     font-family: 'Poppins', sans-serif;
