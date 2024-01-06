@@ -478,31 +478,9 @@ element.style {
     margin-top: 50px;
     margin-bottom: 100px;
 }
-
 .submit {
-    width: 353px;
-    height: 53px;
-    border-radius: 33px;
-    background: #CC9EB0;
-    margin: 0 auto;
-    display: block;
-    margin-top: 110px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 17px;
-}
-.services__title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 33px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 28px;
-}
-.submit {
-    width: 323px;
-    height: 38px;
+    width: 245px;
+    height: 30px;
     border-radius: 33px;
     background: #CC9EB0;
     margin: 0 auto;
@@ -511,9 +489,17 @@ element.style {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 12px;
 }
 
+.services__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 28px;
+}
 
 .footer{
     background: #081C19;
@@ -581,6 +567,8 @@ element.style {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    height: 128px;
+    margin-top: 11px;
 }
 
 .btn__footer-contact{
@@ -590,7 +578,7 @@ element.style {
     border-radius: 35px;
 }
 
-.btn__footer-contact {
+.btn__footer-contact-phons{
     width: 161px;
     height: 34px;
     background: #CC9EB0;
@@ -616,4 +604,20 @@ element.style {
     width: 100px;
     padding-bottom: 18px;
 }
+
+
+.phone{
+
+}
+.mail{
+
+}
+
+.footer__phone{
+    text-decoration: underline;
+}
+
+
+
+
 }

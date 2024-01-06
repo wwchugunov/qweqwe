@@ -41,3 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+function callPhoneNumber(phoneNumber) {
+    window.location.href = 'tel:' + phoneNumber;
+}
