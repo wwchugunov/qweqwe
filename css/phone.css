@@ -754,6 +754,10 @@ element.style {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
+/* *{
+    font-family: 'Poppins', sans-serif;
+} */
 .contact__title {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
