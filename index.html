@@ -82,7 +82,7 @@
 
                     <div class="header__sub-title">Schenke Zeit an die, die du liebst</div>
                     <div class="header__btn-box">
-                        <button class="contakt-btn">Kontakt</button>
+                        <button class="contakt-btn" onclick="scrollToContact()">Kontakt</button>
                         <button class="phone-btn" tel="0208 / 88 21 555" onclick="callPhoneNumber('02088821555')">0208 / 88 21 555</button>
                     </div>
                     <div class="ahchor">Weiter scrollen</div>
@@ -91,8 +91,12 @@
                     <div class="wrapper">
                         <div class="header__mediacontent"><img class="img__heeader-1" src="./img/header__img-1.png"
                                 alt=""></div>
-                        <div class="header__mediacontent play"><img class="img__heeader-2" src="./img/header__img-2.png"
-                                alt=""></div>
+                        <!-- <div class="header__mediacontent play"><img class="img__heeader-2" src="./img/header__img-2.png"
+                                alt=""></div> -->
+                                <a href="" data-fancybox data-src="./video/social_media_-_1360 (360p).mp4">
+                                    <div class="header__mediacontent play"><img class="img__heeader-2" src="./img/header__img-2.png"
+                                        alt=""></div>
+                                </a>
                     </div>
                     <div class="header__mediacontent"><img class="img__heeader-3" src="./img/header__img-3.png" alt="">
 
@@ -190,7 +194,7 @@
                             <li class="signwir_item">Häusliche Betreuung</li>
                             <li class="signwir_item">Individuelle Betreuung und Herzlichkeit</li>
                         </ul>
-                        <button class="signwir__btn">Mehr Informationen</button>
+                        <button class="signwir__btn"  onclick="scrollToContact()">Mehr Informationen</button>
                     </div>
                     <div class="signwir__images"><img src="./img/wig__img_1.png" alt=""></div>
                 </div>
@@ -252,7 +256,7 @@
                     </div>
                 </div>
             </div>
-            <button class="uber__uns-btn">Kontakt</button>
+            <button class="uber__uns-btn"  onclick="scrollToContact()">Kontakt</button>
         </div>
 
         <div class="contact" id="contakt">

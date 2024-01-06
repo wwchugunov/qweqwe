@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function() {
     window.toggleMenu = function() {
         var menu = document.querySelector('.burger__menu-list');
@@ -12,30 +10,21 @@ document.addEventListener('DOMContentLoaded', function() {
             menu.style.right = '-100%';
             setTimeout(function() {
                 menu.style.display = 'none';
-            }, 300); // 300ms - время анимации
+            }, 300); 
 
-            // Скрыть крестик
             burgerBtn.classList.remove('open');
-            // Разблокировать фон
             document.body.style.overflow = 'auto';
         } else {
             menu.style.display = 'block';
             menu.style.right = '0px';
-
-            // Показать крестик
             burgerBtn.classList.add('open');
-            // Заблокировать фон
             document.body.style.overflow = 'hidden';
         }
     }
 
-    // Добавляем обработчик событий для пунктов меню
     var menuItems = document.querySelectorAll('.burger__link');
     for (var i = 0; i < menuItems.length; i++) {
         menuItems[i].addEventListener('click', function() {
-            // Выполните дополнительные действия, если необходимо
-
-            // Закрываем меню
             window.toggleMenu();
         });
     }
@@ -43,4 +32,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function callPhoneNumber(phoneNumber) {
     window.location.href = 'tel:' + phoneNumber;
+}
+
+$(document).ready(function() {
+    $('[data-fancybox]').fancybox({
+        youtube: {
+            controls: 0,
+            showinfo: 0
+        },
+        vimeo: {
+            color: 'f00'
+        }
+    });
+});
+
+function scrollToContact() {
+    var contactElement = document.getElementById('contakt');
+    if (contactElement) {
+        contactElement.scrollIntoView({ behavior: 'smooth' });
+    }
 }

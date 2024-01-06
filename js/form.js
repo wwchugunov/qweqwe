@@ -26,14 +26,6 @@ form.addEventListener('submit', function (e) {
         this.elements.phone.value = "";
         this.elements.message.value = "";
 
-        // Swal.fire({
-        //     title: 'Erfolgreich gesendet!',
-        //     text: 'Vielen Dank für Ihre Anfrage.',
-        //     icon: 'success',
-        //     confirmButtonText: 'OK'
-        // });
-
-
         Swal.fire({
             title: 'Erfolgreich gesendet!',
             text: 'Vielen Dank für Ihre Anfrage.',
@@ -50,3 +42,5 @@ form.addEventListener('submit', function (e) {
         console.log(err);
     });
 });
+
+

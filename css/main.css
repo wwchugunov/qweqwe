@@ -243,6 +243,10 @@ body{}
     background-image: url('../img/media-btn.svg');
 }
 
+
+
+
+
 .header__mediacontent.play::after {
     position: absolute;
     content: 'Video ansehen'; /* Замените этот текст на нужный вам */
