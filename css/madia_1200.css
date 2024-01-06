@@ -170,6 +170,19 @@
         border: 1px solid black;
     }
 
+
+    .signwir__text.two{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        width: max-content;
+        margin-left: -28px;
+    }
+
+    .signwir__list.two {
+        margin-left: -30px;
+        /* margin-top: -35px; */
+    }
     .services__item-img img{
         width: 45px;
     }

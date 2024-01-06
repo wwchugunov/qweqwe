@@ -243,8 +243,22 @@ body{}
     background-image: url('../img/media-btn.svg');
 }
 
-
-
+.signwir__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.header__mediacontent.play::before {
+    position: absolute;
+    content: '';
+    left: 54%;
+    bottom: -51.5px;
+    transform: translateX(-50%);
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    background-image: url(../img/media-btn.svg);
+}
 
 
 .header__mediacontent.play::after {
@@ -252,7 +266,7 @@ body{}
     content: 'Video ansehen'; /* Замените этот текст на нужный вам */
     display: block;
     text-align: center;
-    left: 50%;
+    left: 55%;
     bottom: -20px; /* Регулируйте это значение в зависимости от ваших потребностей */
     transform: translateX(-50%);
     color: #fff; /* Цвет текста */
@@ -358,7 +372,7 @@ font-family: 'Poppins', sans-serif;
 
 .signwir__wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 50px;
 }
 .signwir__title{
